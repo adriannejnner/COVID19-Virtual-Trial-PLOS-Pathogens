@@ -11,3 +11,7 @@ To simulate the code that creates Figure 3 in the paper run "commands_virus_IFN_
 To simulate the code that creates Figure 4 in the paper run "commands_model_full_and_disease_free_V2" in folder "CODE Figure 4 (Full model simulation)"
 
 To simulate the code that creates Figure 5 in the paper run "Commands_sensitivity_analysis_V2" to create A and "Commands_sensitivity_analysis_QUALITATIVE_V2" for B-E in folder "CODE Figure 5 (Sensitivity analysis)"
+
+To simulate the code that creates Figure 6 in the paper run "commands_beta_varying" in the folder "CODE Figure 6 (Beta change)"
+
+
