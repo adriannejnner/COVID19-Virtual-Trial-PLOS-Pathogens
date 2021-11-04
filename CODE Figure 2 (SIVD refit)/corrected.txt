@@ -1,0 +1,25 @@
+[LONGITUDINAL]
+input = {V0, beta, d_I, p, d_V, I0, ktr}
+
+EQUATION:
+V_0 = 0
+S_0 = 0.16
+Smax = 0.16
+r = 0.739
+tau = 0.1667
+d_D = 8
+I_0 = I0
+Vtrans_0 = V0
+t_0 = 0
+
+
+
+ddt_V = p * I - d_V * V + ktr*Vtrans
+ddt_S = r * S * (1 - (S + I + D)/Smax) - beta * V * S
+ddt_I = beta * delay(V,tau) * delay(S,tau) - d_I * I
+ddt_D = d_I * I - d_D * D
+ddt_Vtrans=-ktr*Vtrans
+
+
+OUTPUT:
+output = {V}
