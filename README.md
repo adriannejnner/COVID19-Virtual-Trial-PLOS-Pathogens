@@ -2,3 +2,12 @@
 This code accompanies the paper in PLOS Pathogens titled "COVID-19 virtual patient cohort suggests immune https://doi.org/10.1371/journal.ppat.1009753 mechanisms driving disease outcomes" 
 
 To simulate the code that creates Figure 2 in the paper run "Commands_humandata_SIVD" in folder "CODE Figure 2 (SIVD refit)"
+
+To simulate the code that creates Figure 3 onwards, you'll first need to install ddesd_f5, follow the instructions below: 
+First download the dde solver: "ddesdinstallationv2.zip". To install the solver run "installMyDdesd()" in administrator mode in Matlab. Don't save this folder where you save the code
+
+To simulate the code that creates Figure 3 in the paper run "commands_virus_IFN_model" in folder "CODE Figure 3 (IFN delay)"
+
+To simulate the code that creates Figure 4 in the paper run "commands_model_full_and_disease_free_V2" in folder "CODE Figure 4 (Full model simulation)"
+
+To simulate the code that creates Figure 5 in the paper run "Commands_sensitivity_analysis_V2" to create A and "Commands_sensitivity_analysis_QUALITATIVE_V2" for B-E in folder "CODE Figure 5 (Sensitivity analysis)"
