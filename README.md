@@ -16,3 +16,4 @@ To simulate the code that creates Figure 6 in the paper run "commands_beta_varyi
 
 To simulate the code that creates Figure 7 in the paper run "commands_fullmodel_macschanges.m" to simulate macrophage knockout, "commands_fullmodel_monochanges.m" to simulate monocyte knockout and "commands_fullmodel_neutschanges.m" to simulate neutrophil knockout in folder "CODE Figure 7 (knockout) and combine resulting figures. 
 
+To simulate the code that creates Figure 9 in the paper run "commands_insilico_trial_v2.m" in folder "CODE Figure 8 (virtual cohort)".
